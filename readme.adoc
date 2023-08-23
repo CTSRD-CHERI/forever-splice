@@ -1,0 +1,9 @@
+= forever-splice
+
+Simple perpetual splicing of 2 unix fifos, forever dequeuing a producer and enqueuing a consumer.
+
+[code,shell]
+--------------
+Splice two UNIX FIFOs:
+  forever-splice [PRODUCER] [CONSUMER]
+--------------
